@@ -1,24 +1,19 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Here's how to get this repo started....
 
-Things you may want to cover:
+## Graphql
+All grapql items are located in the `app/graphql` folder
 
-* Ruby version
+## DB setup
+I used a dummy database with a dummy username and a dummy password.
+You should probably change those to fit your needs lol.
 
-* System dependencies
+## Rails
+* The usual `bundle install`
+* `rails db:migrate`
+* `rails db:seed`
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Graphql Playground
+Go to: `localhost:3000/graphql_playground`
+You can use graphql to query and create tasks and view your users.
